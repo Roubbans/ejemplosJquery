@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-secondary p-4 d-flex gap-3 justify-content-center text-center">
+            <a class="form-control fw-bold text-light w-25 bg-dark border border-3 border-dark text-decoration-none fs-3"
+                href="pagina1.html">Pagina 1</a>
+            <a class="form-control fw-bold text-light w-25 bg-dark border border-3 border-dark text-decoration-none fs-3"
+                href="pagina2.html">Pagina 2</a>
+            <a class="form-control fw-bold text-light w-25 bg-dark border border-3 border-dark text-decoration-none fs-3"
+                href="pagina3.html">Pagina 3</a>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <section class="container text-center mt-5">
+        <h1 class="bg-success text-light fw-bold ">TABLE</h1>
+        <table class="table table-success table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Carnet</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Correo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-0001</td>
+                    <td>Soy el Inventado</td>
+                    <td>soyel@micorreo.com.gt</td>
+                </tr>
+                <tr>
+                    <td>2024-0002</td>
+                    <td>Soy el nuevo</td>
+                    <td>soynuevo@micorreo.com.gt</td>
+                </tr>
+                <tr>
+                    <td>2024-0003</td>
+                    <td>Estudiante Prueba</td>
+                    <td>soyprueba@micorreo.com.gt</td>
+                </tr>
+                <tr id="tr4">
+                    <td>2024-0004</td>
+                    <td>Soy agregado</td>
+                    <td>agregado@micorreo.com.gt</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="container d-flex justify-content-around gap-3 w-100">
+            <input type="button" id="btn_agregar" class="w-50 p-3 rounded-pill btn btn-outline-warning fs-2 fw-bold" value="Agregar">
+            <input type="button" id="btn_quitar" class="w-50 p-3 rounded-pill btn btn-outline-warning fs-2 fw-bold" value="Quitar">
+        </div>
+    </section>
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="pagina2.js"></script>
+</body>
+
+</html>
